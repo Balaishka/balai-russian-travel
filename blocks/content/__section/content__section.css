@@ -1,3 +1,15 @@
 .content__section {
   margin-bottom: 64px;
 }
+
+@media screen and (min-width: 768px) {
+  .content__section {
+    margin-bottom: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content__section {
+    margin-bottom: 92px;
+  }
+}
