@@ -1,24 +1,12 @@
-@font-face {
-	font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 400;
-  src: url(../fonts/Inter-Regular.woff2) format("woff2"),
-       url(../fonts/Inter-Regular.woff) format("woff"),
-       url(../fonts/Inter-Regular.ttf) format("truetype"),
-       url(../fonts/Inter-Regular.otf) format("opentype");
-}
-
-@font-face {
-	font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  src: url(../fonts/Inter-Black.woff2) format("woff2"),
-       url(../fonts/Inter-Black.woff) format("woff"),
-       url(../fonts/Inter-Black.ttf) format("truetype"),
-       url(../fonts/Inter-Black.otf) format("opentype");
-}
+@import url(../blocks/font/font.css);
 
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/page/page.css);
 
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-list/header__lang-list.css);
+@import url(../blocks/header/__lang-item/header__lang-item.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
