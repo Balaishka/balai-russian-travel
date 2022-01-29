@@ -1,0 +1,11 @@
+.lead__photo {
+  margin: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__photo {
+    margin: auto;
+    max-width: 984px;
+    width: calc(100% - 96px);
+  }
+}
