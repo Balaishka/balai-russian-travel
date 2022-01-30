@@ -1,3 +1,9 @@
 .cover {
   padding-top: 2px;
 }
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    padding-top: 0;
+  }
+}
